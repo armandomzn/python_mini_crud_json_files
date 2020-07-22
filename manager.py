@@ -80,9 +80,9 @@ def add_client():
                 'date': datetime.datetime.now().strftime("%H:%M:%S"),
             }
             json.dump(data, file, indent=2)
-            print('customer created Successfuly')
+            print('Customer created Successfuly')
     else:
-        print('The file almost exist'.upper())
+        print('The file already exist'.upper())
 
 
 def edit_customer():
